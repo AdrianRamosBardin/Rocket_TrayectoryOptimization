@@ -1,5 +1,5 @@
 # Rocket_TrayectoryOptimization
-This simple Python script uses 'Casadi' a very powerful optimization library to optimize the control inputs of a rocket. You can choose the initial and final conditions for the rocket and the optimizer will find the optimum control inputs.
+This simple Python script uses 'Casadi' a very powerful optimization library to optimize the control inputs of a TVC rocket. You can choose the initial and final conditions for the rocket and the optimizer will find the optimum control inputs.
 
 I've always loved optimization, which I feel is a really elegant way to solve problems (especially in control engineering and dynamic systems). In this case, the final conditions are met when the rocket has no velocity and height is cero, this means in this case we are finding the optimum control inputs for landing the rocket given an initial condition.
 
